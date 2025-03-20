@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" version="26.1.1">
   <diagram name="第 1 页" id="o0nr2cc5x3VezyoTLNgw">
-    <mxGraphModel dx="552" dy="289" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="7170" dy="3760" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -388,7 +388,7 @@
           <mxGeometry x="3110" y="945" width="300" height="30" as="geometry" />
         </mxCell>
         <mxCell id="R4_T0SXZJ25gIyN9d9QS-125" value="initVsync函数会去执行 onNewVsyncScheduleLocked 函数，&lt;div&gt;不过在前面的 registerDisplay 中已经执行过了，我们就不在分析了&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="3030" y="1048" width="370" height="40" as="geometry" />
+          <mxGeometry x="3075" y="1030" width="370" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
