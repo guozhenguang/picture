@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" version="26.1.1">
   <diagram name="第 1 页" id="o0nr2cc5x3VezyoTLNgw">
-    <mxGraphModel dx="5736" dy="3008" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="819" dy="430" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -164,6 +164,9 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="R4_T0SXZJ25gIyN9d9QS-43" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R4_T0SXZJ25gIyN9d9QS-39" target="R4_T0SXZJ25gIyN9d9QS-42">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R4_T0SXZJ25gIyN9d9QS-124" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R4_T0SXZJ25gIyN9d9QS-39" target="R4_T0SXZJ25gIyN9d9QS-123">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="R4_T0SXZJ25gIyN9d9QS-39" value="&lt;span style=&quot;&quot;&gt;继续看 SurfaceFlinger 的&amp;nbsp;&lt;/span&gt;&lt;code style=&quot;letter-spacing: 0em; color: rgb(30, 107, 184); font-size: 14px; line-height: 1.8em; background: none 0% 0% / auto no-repeat scroll padding-box border-box rgba(27, 31, 35, 0.05); width: auto; height: auto; margin-left: 2px; margin-right: 2px; padding: 2px 4px; border-style: none; border-width: 3px; border-color: rgb(0, 0, 0) rgba(0, 0, 0, 0.4) rgba(0, 0, 0, 0.4); border-radius: 4px; font-family: Consolas, Monaco, Menlo, monospace; word-break: break-all;&quot;&gt;SurfaceFlinger::init()&lt;/code&gt;&lt;span style=&quot;&quot;&gt;&amp;nbsp;函数，&lt;/span&gt;&lt;div style=&quot;text-align: center;&quot;&gt;&lt;span style=&quot;&quot;&gt;看&lt;b&gt;initScheduler函数&lt;/b&gt;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
@@ -374,6 +377,18 @@
             <mxPoint x="2560" y="1100" as="sourcePoint" />
             <mxPoint x="2610" y="1050" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="R4_T0SXZJ25gIyN9d9QS-122" value="&lt;span style=&quot;color: rgba(0, 0, 0, 0); font-family: monospace; font-size: 0px; text-align: start;&quot;&gt;%3CmxGraphModel%3E%3Croot%3E%3CmxCell%20id%3D%220%22%2F%3E%3CmxCell%20id%3D%221%22%20parent%3D%220%22%2F%3E%3CmxCell%20id%3D%222%22%20value%3D%223.%E9%80%9A%E8%BF%87%20createEventThread%20%E5%87%BD%E6%95%B0%E6%9E%84%E5%BB%BA%E4%BA%86%E4%B8%A4%E4%B8%AA%20EventThread%20%E5%AF%B9%E8%B1%A1%26lt%3Bbr%26gt%3B%E5%88%86%E5%88%AB%E6%98%AF%EF%BC%9AVSYNC-app%EF%BC%8CVSYNC-appSf%E5%90%84%E8%87%AA%E5%AF%B9%E5%BA%94%E7%9A%84EventThread%E5%AF%B9%E8%B1%A1%22%20style%3D%22text%3Bhtml%3D1%3Balign%3Dleft%3BverticalAlign%3Dmiddle%3Bresizable%3D0%3Bpoints%3D%5B%5D%3Bautosize%3D1%3BstrokeColor%3Dnone%3BfillColor%3Dnone%3B%22%20vertex%3D%221%22%20parent%3D%221%22%3E%3CmxGeometry%20x%3D%221965%22%20y%3D%22940%22%20width%3D%22380%22%20height%3D%2240%22%20as%3D%22geometry%22%2F%3E%3C%2FmxCell%3E%3C%2Froot%3E%3C%2FmxGraphModel%3E&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3140" y="938" width="20" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R4_T0SXZJ25gIyN9d9QS-126" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R4_T0SXZJ25gIyN9d9QS-123" target="R4_T0SXZJ25gIyN9d9QS-125">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="R4_T0SXZJ25gIyN9d9QS-123" value="4.调用initVsync函数初始化 VSYNC-sf 对应的调度器" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3110" y="945" width="300" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="R4_T0SXZJ25gIyN9d9QS-125" value="initVsync函数会去执行 onNewVsyncScheduleLocked 函数，&lt;div&gt;不过在前面的 registerDisplay 中已经执行过了，好像有点重复，我们就不在分析了&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="3030" y="1048" width="460" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
