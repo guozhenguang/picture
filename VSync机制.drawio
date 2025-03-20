@@ -1,9 +1,72 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" version="26.1.1">
   <diagram name="第 1 页" id="o0nr2cc5x3VezyoTLNgw">
-    <mxGraphModel dx="2868" dy="1504" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="1593" dy="836" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="6zomOD1P-mL0mL0aaMnA-1" value="&lt;font style=&quot;font-size: 18px;&quot;&gt;&lt;b&gt;VSync相关初始化&lt;/b&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="120" y="30" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="6zomOD1P-mL0mL0aaMnA-3" value="1.CompositionEngine 初始化" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="115" y="98" width="180" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6zomOD1P-mL0mL0aaMnA-4" value="SurfaceFlinger 有一个重要成员 &lt;b&gt;mCompositionEngine&lt;/b&gt;，&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;CompositionEngine 充当了 SurfaceFlinger 与 RenderEngine&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;（渲染引擎，&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;主要用于图层 GPU 合成）&lt;/span&gt;&lt;/div&gt;&lt;div&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;和 HWComposer（硬件混合渲染器，主要用于图层硬件合成）之间的桥梁。&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="125" width="430" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="6zomOD1P-mL0mL0aaMnA-6" value="&lt;span style=&quot;text-align: left;&quot;&gt;SurfaceFlinger&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="70" y="250" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6zomOD1P-mL0mL0aaMnA-7" value="&lt;span style=&quot;text-align: left;&quot;&gt;RenderEngine&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="295" y="208" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6zomOD1P-mL0mL0aaMnA-8" value="&lt;span style=&quot;text-align: left;&quot;&gt;HWComposer&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="295" y="280" width="100" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6zomOD1P-mL0mL0aaMnA-9" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.036;entryY=0.525;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6zomOD1P-mL0mL0aaMnA-6" target="6zomOD1P-mL0mL0aaMnA-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="270" as="sourcePoint" />
+            <mxPoint x="270" y="220" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6zomOD1P-mL0mL0aaMnA-10" value="" style="endArrow=classic;startArrow=classic;html=1;rounded=0;entryX=0.036;entryY=0.516;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="6zomOD1P-mL0mL0aaMnA-6" target="6zomOD1P-mL0mL0aaMnA-8">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="170" y="279" as="sourcePoint" />
+            <mxPoint x="299" y="250" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6zomOD1P-mL0mL0aaMnA-11" value="&lt;span style=&quot;text-align: left;&quot;&gt;CompositionEngine&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=-15;" vertex="1" parent="1">
+          <mxGeometry x="165" y="208" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6zomOD1P-mL0mL0aaMnA-12" value="&lt;span style=&quot;text-align: left;&quot;&gt;CompositionEngine&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;rotation=15;" vertex="1" parent="1">
+          <mxGeometry x="160" y="290" width="130" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6zomOD1P-mL0mL0aaMnA-17" value="mCompositionEngine 在 SurfaceFlinger 的构造函数中初始化&lt;br&gt;通过 mFactory.createCompositionEngine() 初始化&lt;div&gt;实际就是 new 了一个 CompositionEngine 对象&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="80" y="400" width="350" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="6zomOD1P-mL0mL0aaMnA-18" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="340" as="sourcePoint" />
+            <mxPoint x="240" y="400" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="6zomOD1P-mL0mL0aaMnA-19" value="2.RenderEngine 初始化" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="1105" y="90" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="6zomOD1P-mL0mL0aaMnA-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6zomOD1P-mL0mL0aaMnA-20" target="6zomOD1P-mL0mL0aaMnA-21">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6zomOD1P-mL0mL0aaMnA-20" value="在 SurfaceFlinger 的启动过程中会执行到 &lt;code style=&quot;color: rgb(30, 107, 184); font-size: 14px; line-height: 1.8em; letter-spacing: 0em; background: none 0% 0% / auto no-repeat scroll padding-box border-box rgba(27, 31, 35, 0.05); width: auto; height: auto; margin-left: 2px; margin-right: 2px; padding: 2px 4px; border-style: none; border-width: 3px; border-color: rgb(0, 0, 0) rgba(0, 0, 0, 0.4) rgba(0, 0, 0, 0.4); border-radius: 4px; font-family: Consolas, Monaco, Menlo, monospace; word-break: break-all;&quot;&gt;SurfaceFlinger::init()&lt;/code&gt; 函数，&lt;div&gt;在该函数中会初始化 Vsync 相关的对象。&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="950" y="127" width="460" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6zomOD1P-mL0mL0aaMnA-24" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="6zomOD1P-mL0mL0aaMnA-21" target="6zomOD1P-mL0mL0aaMnA-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="6zomOD1P-mL0mL0aaMnA-21" value="初始化了一个 &lt;code style=&quot;color: rgb(30, 107, 184); font-size: 14px; line-height: 1.8em; letter-spacing: 0em; background: none 0% 0% / auto no-repeat scroll padding-box border-box rgba(27, 31, 35, 0.05); width: auto; height: auto; margin-left: 2px; margin-right: 2px; padding: 2px 4px; border-style: none; border-width: 3px; border-color: rgb(0, 0, 0) rgba(0, 0, 0, 0.4) rgba(0, 0, 0, 0.4); border-radius: 4px; font-family: Consolas, Monaco, Menlo, monospace; word-break: break-all;&quot;&gt;renderengine::RenderEngineCreationArgs::Builder&lt;/code&gt;&amp;nbsp;&lt;div&gt;对象，接着将 builder 对象传入&lt;b&gt; create &lt;/b&gt;函数构建一个 RenderEngine 对象&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="570" y="222" width="480" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="6zomOD1P-mL0mL0aaMnA-23" value="create 函数会走到 SKIA_GL_THREADED 这个 case， create 一个&amp;nbsp;&lt;div&gt;RenderEngineThreaded 对象返回，在它的构造函数中，&lt;/div&gt;&lt;div&gt;会启动一个线程，线程的主函数是 RenderEngineThreaded::threadMain&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="610" y="310" width="400" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
