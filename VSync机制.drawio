@@ -1,6 +1,6 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/134.0.0.0 Safari/537.36 Edg/134.0.0.0" version="26.1.1">
   <diagram name="第 1 页" id="o0nr2cc5x3VezyoTLNgw">
-    <mxGraphModel dx="5185" dy="2650" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="#ffffff" math="0" shadow="0">
+    <mxGraphModel dx="3771" dy="1927" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="#ffffff" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -173,10 +173,10 @@
           <mxGeometry x="920" y="860" width="380" height="50" as="geometry" />
         </mxCell>
         <mxCell id="R4_T0SXZJ25gIyN9d9QS-40" value="1.new 了一个 Scheduler 对象，Scheduler 是生成和派发 VSync 的整体调度器，继承自 MessageQueue" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="270" y="960" width="570" height="30" as="geometry" />
+          <mxGeometry x="50" y="954" width="570" height="30" as="geometry" />
         </mxCell>
         <mxCell id="R4_T0SXZJ25gIyN9d9QS-41" value="&lt;p style=&quot;line-height: 1.8em;letter-spacing: 0em;text-indent: 0em;padding-top: 8px;padding-bottom: 8px;&quot; data-tool=&quot;mdnice编辑器&quot;&gt;Scheduler 的构造函数对内部的几个成员做了初始化：&lt;/p&gt;&lt;ul class=&quot;list-paddingleft-1&quot; style=&quot;margin-top: 8px;margin-bottom: 8px;padding-left: 25px;&quot; data-tool=&quot;mdnice编辑器&quot;&gt;&lt;li&gt;&lt;section style=&quot;margin-top: 5px;margin-bottom: 5px;color: rgb(1, 1, 1);line-height: 1.8em;letter-spacing: 0em;&quot;&gt;mCompositor，传入的是 Surfaceflinger 对象&lt;/section&gt;&lt;/li&gt;&lt;li&gt;&lt;section style=&quot;margin-top: 5px;margin-bottom: 5px;color: rgb(1, 1, 1);line-height: 1.8em;letter-spacing: 0em;&quot;&gt;mFeatures，前面获取的一些 flags&lt;/section&gt;&lt;/li&gt;&lt;li&gt;&lt;section style=&quot;margin-top: 5px;margin-bottom: 5px;color: rgb(1, 1, 1);line-height: 1.8em;letter-spacing: 0em;&quot;&gt;mVsyncModulator，根据事务调度和刷新率的变化调整 Vsync&lt;/section&gt;&lt;/li&gt;&lt;li&gt;&lt;section style=&quot;margin-top: 5px;margin-bottom: 5px;color: rgb(1, 1, 1);line-height: 1.8em;letter-spacing: 0em;&quot;&gt;mSchedulerCallback，传入的是 Surfaceflinger 对象&lt;/section&gt;&lt;/li&gt;&lt;li&gt;&lt;section style=&quot;margin-top: 5px;margin-bottom: 5px;color: rgb(1, 1, 1);line-height: 1.8em;letter-spacing: 0em;&quot;&gt;mLooper mHandler：事件循环相关类&lt;/section&gt;&lt;/li&gt;&lt;/ul&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
-          <mxGeometry x="370" y="982" width="370" height="210" as="geometry" />
+          <mxGeometry x="150" y="976" width="370" height="210" as="geometry" />
         </mxCell>
         <mxCell id="R4_T0SXZJ25gIyN9d9QS-49" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="R4_T0SXZJ25gIyN9d9QS-42" target="R4_T0SXZJ25gIyN9d9QS-48">
           <mxGeometry relative="1" as="geometry" />
